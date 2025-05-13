@@ -1,0 +1,21 @@
+{
+  "types": [
+    { "type": "feat", "section": "✨ 新功能" },
+    { "type": "fix", "section": "🐛 Bug修复" },
+    { "type": "docs", "section": "📝 文档" },
+    { "type": "style", "section": "💄 代码样式" },
+    { "type": "refactor", "section": "♻️ 重构" },
+    { "type": "perf", "section": "⚡️ 性能优化" },
+    { "type": "test", "section": "✅ 测试" },
+    { "type": "build", "section": "👷 构建系统" },
+    { "type": "ci", "section": "🔧 CI配置" },
+    { "type": "chore", "section": "🔨 其他更改" },
+    { "type": "revert", "section": "⏪ 回退" },
+    { "type": "patch", "hidden": true },
+    { "type": "minor", "hidden": true },
+    { "type": "major", "hidden": true }
+  ],
+  "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+  "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+  "releaseCommitMessageFormat": "chore: 版本升级至 {{currentTag}}"
+}

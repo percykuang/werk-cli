@@ -1,0 +1,72 @@
+{
+  "name": "@werk/cli",
+  "version": "0.2.4",
+  "description": "werk-cli 脚手架",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "dev": "pnpm run build && node dist/index.js create app",
+    "format": "prettier --write \"**/*.{js,ts,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,json,md}\"",
+    "prepare": "husky",
+    "prepublishOnly": "pnpm run build",
+    "release": "git push && npm publish",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "version-bump": "node scripts/version-bump.js"
+  },
+  "keywords": [
+    "vite",
+    "TypeScript",
+    "Vue3"
+  ],
+  "author": "Percy Kuang",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "werk-cli": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@inquirer/prompts": "^7.5.1",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.17.16",
+    "@types/node": "^22.15.17",
+    "add": "^2.0.6",
+    "axios": "^1.9.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.3.0",
+    "husky": "^9.1.7",
+    "lodash": "^4.17.21",
+    "ora": "^8.2.0",
+    "prettier": "^3.5.3",
+    "progress-estimator": "^0.3.1",
+    "rollup": "^4.40.2",
+    "rollup-plugin-node-externals": "^8.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "simple-git": "^3.27.0",
+    "standard-version": "^9.5.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
