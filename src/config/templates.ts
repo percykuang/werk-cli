@@ -6,10 +6,10 @@ export interface TemplateInfo {
 
 const templates: Map<string, TemplateInfo> = new Map([
   [
-    'vite-vue3-typescript-template',
+    'react-typescript-template',
     {
-      name: 'Vite + Vue3 + TypeScript 模板 (GitHub)',
-      downloadUrl: 'git@github.com:percykuang/css-scope-loader.git',
+      name: 'React + TypeScript',
+      downloadUrl: 'git@github.com:percykuang/react-ts-template.git',
       branch: 'main',
     },
   ],
