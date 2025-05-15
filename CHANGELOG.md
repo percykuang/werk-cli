@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/percykuang/werk-cli/compare/v0.2.6...v0.3.0) (2025-05-15)
+
+
+### ✨ 新功能
+
+* **minor:** update react ts template ([7c5810f](https://github.com/percykuang/werk-cli/commit/7c5810f2790cd2702eec06763f9d6572eeede7de))
+
 ### 0.2.6 (2025-05-15)
 
 
