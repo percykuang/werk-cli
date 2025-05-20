@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/percykuang/werk-cli/compare/v0.3.0...v0.4.0) (2025-05-20)
+
+
+### ✨ 新功能
+
+* **minor:** add vue template ([21931e0](https://github.com/percykuang/werk-cli/commit/21931e0ea903279c86bca5f0872ea5976140703d))
+
 ## [0.3.0](https://github.com/percykuang/werk-cli/compare/v0.2.6...v0.3.0) (2025-05-15)
 
 
