@@ -14,11 +14,11 @@ const templates: Map<string, TemplateInfo> = new Map([
     },
   ],
   [
-    'vite-vue3-typescript-template-dev10',
+    'vue-typescript-template',
     {
-      name: 'Vite + Vue3 + TypeScript 模板 (Gitee dev10分支)',
-      downloadUrl: 'git@gitee.com:sohucw/admin-pro.git',
-      branch: 'dev10',
+      name: 'Vue3 + TypeScript',
+      downloadUrl: 'git@github.com:percykuang/vue-ts-template.git',
+      branch: 'main',
     },
   ],
 ]);
